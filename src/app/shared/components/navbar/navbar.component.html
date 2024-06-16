@@ -4,4 +4,14 @@
             <img src="../assets/images/ttu-logo.png" alt="TTU Logo" class="w-full" />
         </label>
     </a>
+
+    <ul class="flex gap-5">
+        @for(navlink of navlinks; track $index) {
+            <li class="font-bold textsm hover:text-[#190C6A]">
+                <a [routerLink]="navlink.link" [routerLinkActive]="['active']">
+                    {{ navlink.label }}
+                </a>
+            </li>
+        }
+    </ul>
 </nav>
