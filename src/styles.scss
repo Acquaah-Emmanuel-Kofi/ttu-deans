@@ -1,8 +1,12 @@
 // Import Tailwind base styles
-@import 'tailwindcss/base';
+@import "tailwindcss/base";
 
 // Import Tailwind component styles
-@import 'tailwindcss/components';
+@import "tailwindcss/components";
 
 // Import Tailwind utility styles
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
+
+html {
+  font-family: "Poppins", sans-serif;
+}
