@@ -1,0 +1,27 @@
+<app-navbar />
+<main class="relative">
+  <img src="../assets/images/hero-bg-img.jpg" alt="Background" />
+  <a href="#" class="absolute md:bottom-[35%] left-[6%] -mt-[20%] md:mt-0">
+    <button
+      type="button"
+      class="border-none bg-[#190C6A] rounded-md md:px-12 md:py-3 px-6 py-3 md:text-sm text-xs text-white"
+    >
+      Learn more
+    </button>
+  </a>
+
+  <ul
+    class="flex flex-col md:flex-row mt-1 md:mt-0 justify-center gap-1 md:px-[5%] md:absolute md:bottom-0 w-full"
+  >
+    @for(card of heroCards; track $index) {
+    <li
+      class="w-full bg-[#190C6A] flex justify-center items-center text-white gap-4 px-10 pb-6"
+    >
+      <h2>{{ card.title }}</h2>
+      <img [src]="card.iconSrc" alt="{{ card.title }}" class="w-16 mt-24" />
+    </li>
+    }
+  </ul>
+</main>
+
+<app-about />
