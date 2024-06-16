@@ -21,5 +21,18 @@
         </li>
       </ul>
     </div>
+
+    <div class="md:-mt-[3%] mt-[10%]">
+      <h2 class="text-[#DBBE27] mb-2 -ml-5">Quick Links</h2>
+      <ul class="list-disc underline">
+        @for(link of quickLinks; track $index) {
+        <li class="hover:text-blue-500">
+          <a [href]="link.link" target="_blank" rel="nooreferrer">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
   </div>
 </footer>
