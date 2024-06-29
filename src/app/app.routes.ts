@@ -13,7 +13,7 @@ export const routes: Routes = [
         component: HomepageComponent
       },
       {
-        path: 'academic-programs-faculty-and-departments',
+        path: 'academic-programs',
         component: AcademicsPageComponent
       },
 ];
