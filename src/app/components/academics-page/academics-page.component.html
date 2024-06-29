@@ -1,0 +1,122 @@
+<section>
+  <div
+    id="rectangle"
+    class="flex justify-end items-center w-[310px] h-[100px] md:w-[350px] md:h-[150px]"
+  >
+    <div
+      id="triangle-down"
+      class="border-b-[100px] md:border-b-[150px] border-b-transparent"
+    ></div>
+    <div id="triangle-left"></div>
+    <div class="w-full ml-[10%] md:-mr-[20%] z-10">
+      <h1 class="text-white text-lg">
+        Academic Programs, Faculty and Departments
+      </h1>
+    </div>
+  </div>
+
+  <main class="md:pl-[10%] px-3">
+    <div class="mb-[2%]">
+      <ul class="list-decimal text-sm font-semibold leading-relaxed">
+        <p>DIPLOMA OF TECHNOLOGY PROGRAMMES (REGULAR)</p>
+        @for(link of facultyOfAppliedArtAndTechnology; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
+
+    <div class="mb-[2%]">
+      <ul class="list-decimal text-sm font-semibold leading-relaxed">
+        <p>HND PROGAMMES (REGULAR)</p>
+
+        <p class="mb-1">Faculty of Applied Arts</p>
+        @for(link of facultyOfAppliedArt; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+
+        <p class="my-1">Faculty of Applied Sciences</p>
+        @for(link of facultyOfAppliedSciences; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+
+        <p class="my-1">Faculty of Engineering</p>
+        @for(link of facultyOfEngineering; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+
+        <p class="my-1">Faculty of Business Studies</p>
+        @for(link of facultyOfBuisinessStudies; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+
+        <p class="my-1">Faculty of Built and Natural Environment</p>
+        @for(link of facultyOfBuiltAndNaturalEnvironment; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
+
+    <div class="mb-[2%]">
+      <ul class="list-decimal text-sm font-semibold leading-relaxed">
+        <p>EVENING HND PROGAMMES</p>
+        @for(link of EveningHNDProgrammes; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
+
+    <div class="mb-[2%]">
+      <ul class="list-decimal text-sm font-semibold leading-relaxed">
+        <p>BACHELOR OF TECHNOLOGY (B. TECH) PROGAMMES</p>
+        @for(link of BTechProgrammes; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
+
+    <div class="mb-[2%]">
+      <ul class="list-decimal text-sm font-semibold leading-relaxed">
+        <p>MASTERS OF TECHNOLOGY (M-TECH) PROGAMMES</p>
+        @for(link of MTechProgrammes; track $index) {
+        <li class="ml-4">
+          <a [href]="link.link" target="_blank">
+            {{ link.label }}
+          </a>
+        </li>
+        }
+      </ul>
+    </div>
+  </main>
+</section>

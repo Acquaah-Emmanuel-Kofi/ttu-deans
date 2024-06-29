@@ -1,0 +1,13 @@
+#rectangle {
+  background-color: #ffc700;
+  position: relative;
+  margin-bottom: 3%;
+}
+
+#triangle-down {
+  border-left: 80px solid #ffc700;
+  border-right: 0;
+  position: absolute;
+  right: -80px;
+  top: 0;
+}
