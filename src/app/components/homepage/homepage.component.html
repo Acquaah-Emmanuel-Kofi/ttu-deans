@@ -15,10 +15,12 @@
   >
     @for(card of heroCards; track $index) {
     <li
-      class="w-full bg-[#190C6A] flex justify-center items-center text-white gap-4 px-10 pb-6"
+      class="w-full bg-[#190C6A]  text-white gap-4 px-10 pb-6"
     >
-      <h2>{{ card.title }}</h2>
-      <img [src]="card.iconSrc" alt="{{ card.title }}" class="w-16 mt-24" />
+      <a [routerLink]="card.link" class="flex justify-center items-center">
+        <h2>{{ card.title }}</h2>
+        <img [src]="card.iconSrc" alt="{{ card.title }}" class="w-16 mt-24" />
+      </a>
     </li>
     }
   </ul>
