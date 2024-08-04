@@ -12,28 +12,16 @@ import { RouterLink } from '@angular/router';
 export class FooterComponent {
     public quickLinks: QuickLinks[] = [
       {
-        label: 'Acadamc Calendar',
-        link: 'https://ttu.edu.gh/academic-calendar-20222023/'
+        label: 'Home',
+        link: ''
       },
       {
-        label: 'University Library',
-        link: 'https://ttu.edu.gh/academic-calendar-20222023/'
+        label: 'News',
+        link: '/news'
       },
       {
-        label: 'Faculties and Departments',
-        link: 'https://ttu.edu.gh/academic-calendar-20222023/'
-      },
-      {
-        label: 'Student Resources',
-        link: 'https://ttu.edu.gh/academic-calendar-20222023/'
-      },
-      {
-        label: 'Student Resources Centre',
-        link: 'https://ttu.edu.gh/academic-calendar-20222023/'
-      },
-      {
-        label: 'Alumni',
-        link: 'https://ttu.edu.gh/academic-calendar-20222023/'
+        label: 'Contacts',
+        link: '/contacts'
       },
     ];
 }
