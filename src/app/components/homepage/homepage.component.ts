@@ -19,12 +19,12 @@ export class HomepageComponent {
       link: '',
     },
     {
-      title: 'Heads of  Departments',
+      title: 'Head of  Departments',
       iconSrc: '../assets/icons/department.svg',
       link: '',
     },
     {
-      title: 'Academic Programs, Faculty and Departments',
+      title: 'Academic Programmes',
       iconSrc: '../assets/icons/programs.svg',
       link: 'academic-programs',
     },
