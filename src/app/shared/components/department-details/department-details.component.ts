@@ -9,5 +9,5 @@ import { ContentItem } from './department-details.interface';
   styleUrl: './department-details.component.scss',
 })
 export class DepartmentDetailsComponent {
-  content = input<ContentItem[]>();
+  content = input.required<ContentItem[]>();
 }
