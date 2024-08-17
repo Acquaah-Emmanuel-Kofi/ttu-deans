@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-page-title',
@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './page-title.component.scss'
 })
 export class PageTitleComponent {
-
+  title = input.required<string>();
 }
