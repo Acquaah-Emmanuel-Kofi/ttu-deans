@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { IAcademicLinks } from './academics.interface';
+import { PageTitleComponent } from '../../shared/components/page-title/page-title.component';
 
 @Component({
   selector: 'app-academics-page',
   standalone: true,
-  imports: [],
+  imports: [PageTitleComponent],
   templateUrl: './academics-page.component.html',
   styleUrl: './academics-page.component.scss',
 })
 export class AcademicsPageComponent {
+  title: string = "Academic Programs, Faculty and Departments"
   public facultyOfAppliedArtAndTechnology: IAcademicLinks[] = [
     {
       label: 'Diploma of Technology in Arts and Design',
