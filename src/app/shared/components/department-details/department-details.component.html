@@ -7,9 +7,9 @@
       {{ item.description || item.subtitle }}
     </P>
 
-    @if (item.list) {
+    @if (item.objectives) {
     <ul class="list-decimal text-[#190C6A] font-normal text-base space-y-4">
-      @for (subItem of item.list; track $index) {
+      @for (subItem of item.objectives; track $index) {
       <li>{{ subItem }}</li>
       }
     </ul>

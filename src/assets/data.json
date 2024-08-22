@@ -341,14 +341,14 @@
       "title": "Department of Arts and Design",
       "description": "The Department of Arts and Design focuses on creative practices in visual arts, design, and technology.",
       "subtitle": "Creative Innovation",
-      "list": ["Graphic Design", "Textiles Technology", "Ceramics", "Painting"]
+      "objectives": ["Graphic Design", "Textiles Technology", "Ceramics", "Painting"]
     },
     {
       "id": 2,
       "title": "Department of Hotel, Catering & Institutional Management",
       "description": "This department offers a comprehensive curriculum in hospitality, catering, and hotel management.",
       "subtitle": "Hospitality Excellence",
-      "list": [
+      "objectives": [
         "Catering Management",
         "Hotel Management",
         "Institutional Catering"
@@ -359,7 +359,7 @@
       "title": "Department of Information and Communication Technology",
       "description": "The ICT department provides training in various ICT fields including networking and software engineering.",
       "subtitle": "Technology for Tomorrow",
-      "list": [
+      "objectives": [
         "Networking",
         "Software Engineering",
         "Web Development",
@@ -371,7 +371,7 @@
       "title": "Department of Mechanical Engineering",
       "description": "The Mechanical Engineering department specializes in automotive, production, and refrigeration technologies.",
       "subtitle": "Engineering Innovation",
-      "list": [
+      "objectives": [
         "Automotive Engineering",
         "Refrigeration and Air-Conditioning",
         "Welding and Fabrication"
