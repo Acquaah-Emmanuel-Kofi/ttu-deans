@@ -1,0 +1,381 @@
+{
+  "headsOfDepartment": [
+    {
+      "id": 1,
+      "logo": "./assets/images/graphic-design.png",
+      "name": "Dr. Ebenezer Kofi Enninful",
+      "faculty": "Faculty of Applied Arts and Technology",
+      "department": "Graphic Design Technology ",
+      "email": "ebenezer.enninful@ttu.edu.gh"
+    },
+    {
+      "id": 2,
+      "logo": "./assets/images/textiles.png",
+      "name": "Dr. Moses Akrofi",
+      "faculty": "Faculty of Applied Arts and Technology",
+      "department": "Textiles Design  Technology",
+      "email": "moses.akrofi@ttu.edu.gh"
+    },
+    {
+      "id": 3,
+      "logo": "./assets/images/ceramics.png",
+      "name": "Asso. Prof. Kofi Asante - Kyei",
+      "faculty": "Faculty of Applied Arts and Technology ",
+      "department": "Ceramic Design Technology",
+      "email": "kofi.asante-kyei@ttu.edu.gh"
+    },
+    {
+      "id": 4,
+      "logo": "./assets/images/fashion.png",
+      "name": "Dr. Faustina Emefa Agordah",
+      "faculty": "Faculty of Applied Arts and Technology",
+      "department": "Fashion Design Technology",
+      "email": "tinaagordah@gmail.com"
+    },
+    {
+      "id": 5,
+      "logo": "./assets/images/painting.png",
+      "name": "Dr. Francesa Evans-Solomon",
+      "faculty": "Faculty of Applied Arts and Technology",
+      "department": "Painting Design Technology",
+      "email": "n/a"
+    },
+    {
+      "id": 6,
+      "logo": "./assets/images/sculpture.png",
+      "name": "Prof.Evans Kwadwo Donkor",
+      "faculty": "Faculty of Applied Arts and Technology",
+      "department": "Sculpture Design Technology",
+      "email": "evans.donkor@ttu.edu."
+    }
+  ],
+  "acadamicPrograms": {
+    "facultyOfAppliedArtAndTechnology": [
+      {
+        "id": 1,
+        "label": "Diploma of Technology in Arts and Design",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "label": "Diploma of Technology in Hotel, Catering & Institutional Management",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "label": "Diploma of Technology in Information and Communication Technology",
+        "link": ""
+      },
+      { "id": 4, "label": "Diploma of Technology in Networking", "link": "" },
+      {
+        "id": 5,
+        "label": "Diploma of Technology in Software Engineering",
+        "link": ""
+      },
+      {
+        "id": 6,
+        "label": "Diploma of Technology in Science Laboratory Technology",
+        "link": ""
+      },
+      {
+        "id": 7,
+        "label": "Diploma of Technology in Statistics with Computing",
+        "link": ""
+      },
+      {
+        "id": 8,
+        "label": "Diploma of Technology in Tourism Management Diploma of Technology in Accounting",
+        "link": ""
+      },
+      {
+        "id": 9,
+        "label": "Diploma of Technology in Business Administration",
+        "link": ""
+      },
+      { "id": 10, "label": "Diploma of Technology in Marketing", "link": "" },
+      {
+        "id": 11,
+        "label": "Diploma of Technology in Office Management",
+        "link": ""
+      },
+      {
+        "id": 12,
+        "label": "Diploma of Technology in Procurement, Logistics and Supply Chain Management",
+        "link": ""
+      },
+      {
+        "id": 13,
+        "label": "Diploma of Technology in Secretaryship & Management Studies",
+        "link": ""
+      },
+      {
+        "id": 14,
+        "label": "Diploma of Technology in Human Resource Management",
+        "link": ""
+      },
+      {
+        "id": 15,
+        "label": "Diploma of Technology in Automotive Engineering",
+        "link": ""
+      },
+      {
+        "id": 16,
+        "label": "Diploma of Technology in Civil Engineering",
+        "link": ""
+      },
+      {
+        "id": 17,
+        "label": "Diploma of Technology in Electrical and Electronics Engineering",
+        "link": ""
+      },
+      {
+        "id": 18,
+        "label": "Diploma of Technology in Environmental Engineering and Management Studies",
+        "link": ""
+      },
+      {
+        "id": 19,
+        "label": "Diploma of Technology in Mechanical Engineering",
+        "link": ""
+      },
+      {
+        "id": 20,
+        "label": "Diploma of Technology in Refrigeration, Heating and Air-Conditioning",
+        "link": ""
+      },
+      {
+        "id": 21,
+        "label": "Diploma of Technology Welding & Fabrication",
+        "link": ""
+      },
+      {
+        "id": 22,
+        "label": "Diploma of Technology in Architectural Draftsmanship",
+        "link": ""
+      },
+      {
+        "id": 23,
+        "label": "Diploma of Technology in Construction Engineering & Management",
+        "link": ""
+      },
+      {
+        "id": 24,
+        "label": "Diploma of Technology in Estate Management",
+        "link": ""
+      },
+      {
+        "id": 25,
+        "label": "Diploma of Technology in Interior Design & Furnishing",
+        "link": ""
+      },
+      {
+        "id": 26,
+        "label": "Diploma of Technology in Plumbing and Gas",
+        "link": ""
+      },
+      {
+        "id": 27,
+        "label": "Diploma of Technology in Furniture Design",
+        "link": ""
+      }
+    ],
+    "facultyOfAppliedArt": [
+      { "id": 1, "label": "HND Commercial Art – Graphic Design", "link": "" },
+      {
+        "id": 2,
+        "label": "HND Commercial Art – Textiles Technology",
+        "link": ""
+      },
+      { "id": 3, "label": "HND Commercial Art – Painting", "link": "" },
+      { "id": 4, "label": "HND Commercial Art – Sculpture", "link": "" },
+      { "id": 5, "label": "HND Commercial Art – Ceramics", "link": "" },
+      { "id": 6, "label": "HND Fashion Design and Technology", "link": "" }
+    ],
+    "facultyOfAppliedSciences": [
+      {
+        "id": 1,
+        "label": "HND Information & Communication Technology",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "label": "HND Hotel, Catering and Institutional Management",
+        "link": ""
+      },
+      { "id": 3, "label": "HND Mathematics and Statistics", "link": "" },
+      { "id": 4, "label": "HND Tourism Management", "link": "" }
+    ],
+    "facultyOfEngineering": [
+      { "id": 1, "label": "HND Civil Engineering", "link": "" },
+      {
+        "id": 2,
+        "label": "HND Construction Engineering & Management",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "label": "HND Electrical/Electronics Engineering",
+        "link": ""
+      },
+      {
+        "id": 4,
+        "label": "HND Mechanical Engineering (Automobile, Plant, Production, Refrigeration and Air-conditioning options) Faculty of Business Studies",
+        "link": ""
+      }
+    ],
+    "facultyOfBuisinessStudies": [
+      { "id": 1, "label": "HND Accountancy", "link": "" },
+      { "id": 2, "label": "HND Marketing", "link": "" },
+      { "id": 3, "label": "HND Purchasing and Supply", "link": "" },
+      {
+        "id": 4,
+        "label": "HND Secretaryship and Management Studies",
+        "link": ""
+      }
+    ],
+    "facultyOfBuiltAndNaturalEnvironment": [
+      { "id": 1, "label": "HND Interior Design and Technology", "link": "" },
+      { "id": 2, "label": "HND Estate Management", "link": "" },
+      { "id": 3, "label": "HND Building Technology", "link": "" }
+    ],
+    "EveningHNDProgrammes": [
+      { "id": 1, "label": "HND Accountancy", "link": "" },
+      { "id": 2, "label": "HND Building Technology", "link": "" },
+      { "id": 3, "label": "HND Civil Engineering", "link": "" },
+      {
+        "id": 4,
+        "label": "HND Commercial Art (Ceramics, Graphic Design, Painting, Sculpture, Textiles options)",
+        "link": ""
+      },
+      {
+        "id": 5,
+        "label": "HND Electrical/ Electronics Engineering",
+        "link": ""
+      },
+      { "id": 6, "label": "HND Fashion Design and Technology", "link": "" },
+      {
+        "id": 7,
+        "label": "HND Hotel, Catering & Institutional Management",
+        "link": ""
+      },
+      { "id": 8, "label": "HND Marketing", "link": "" },
+      { "id": 9, "label": "HND Mechanical Engineering", "link": "" },
+      { "id": 10, "label": "HND Purchasing & Supply", "link": "" },
+      {
+        "id": 11,
+        "label": "HND Secretaryship & Management Studies",
+        "link": ""
+      },
+      { "id": 12, "label": "HND Mathematics and Statistics", "link": "" }
+    ],
+    "BTechProgrammes": [
+      {
+        "id": 1,
+        "label": "Bachelor of Technology in Accounting with Computing",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "label": "Bachelor of Technology in Building Technology",
+        "link": ""
+      },
+      {
+        "id": 3,
+        "label": "Bachelor of Technology in Civil Engineering",
+        "link": ""
+      },
+      {
+        "id": 4,
+        "label": "Bachelor of Technology in Electrical Engineering",
+        "link": ""
+      },
+      { "id": 5, "label": "Bachelor of Technology in Fashion", "link": "" },
+      {
+        "id": 6,
+        "label": "Bachelor of Technology in Graphic Design",
+        "link": ""
+      },
+      {
+        "id": 7,
+        "label": "Bachelor of Technology in Hospitality Management",
+        "link": ""
+      },
+      { "id": 8, "label": "Bachelor of Technology in Marketing", "link": "" },
+      {
+        "id": 9,
+        "label": "Bachelor of Technology in Mechanical Engineering – Plant and Production – Auto",
+        "link": ""
+      },
+      {
+        "id": 10,
+        "label": "Bachelor of Technology in Procurement Management",
+        "link": ""
+      },
+      {
+        "id": 11,
+        "label": "Bachelor of Technology in Secretaryship and Management Studies",
+        "link": ""
+      },
+      {
+        "id": 12,
+        "label": "Bachelor of Technology in Statistics – Environmental Statistics – Financial Statistics – Health Statistics",
+        "link": ""
+      },
+      {
+        "id": 13,
+        "label": "Bachelor of Technology in Telecommunication Engineering",
+        "link": ""
+      },
+      { "id": 14, "label": "Bachelor of Technology in Textiles", "link": "" },
+      { "id": 15, "label": "Bachelor of Technology in Tourism", "link": "" },
+      {
+        "id": 16,
+        "label": "Bachelor of Technology in Welding & Fabrication",
+        "link": ""
+      }
+    ]
+  },
+  "departments": [
+    {
+      "id": 1,
+      "title": "Department of Arts and Design",
+      "description": "The Department of Arts and Design focuses on creative practices in visual arts, design, and technology.",
+      "subtitle": "Creative Innovation",
+      "list": ["Graphic Design", "Textiles Technology", "Ceramics", "Painting"]
+    },
+    {
+      "id": 2,
+      "title": "Department of Hotel, Catering & Institutional Management",
+      "description": "This department offers a comprehensive curriculum in hospitality, catering, and hotel management.",
+      "subtitle": "Hospitality Excellence",
+      "list": [
+        "Catering Management",
+        "Hotel Management",
+        "Institutional Catering"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Department of Information and Communication Technology",
+      "description": "The ICT department provides training in various ICT fields including networking and software engineering.",
+      "subtitle": "Technology for Tomorrow",
+      "list": [
+        "Networking",
+        "Software Engineering",
+        "Web Development",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Department of Mechanical Engineering",
+      "description": "The Mechanical Engineering department specializes in automotive, production, and refrigeration technologies.",
+      "subtitle": "Engineering Innovation",
+      "list": [
+        "Automotive Engineering",
+        "Refrigeration and Air-Conditioning",
+        "Welding and Fabrication"
+      ]
+    }
+  ]
+}
