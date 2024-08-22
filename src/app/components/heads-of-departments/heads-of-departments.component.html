@@ -1,1 +1,21 @@
-<p>heads-of-departments works!</p>
+<section>
+  <app-page-title [title]="title" />
+
+  <main class="py-20">
+    <ng-container>
+      @for (head of headsOfDepartmentData(); track $index) {
+
+      <div class="mb-[10%]">
+        <app-details-card
+          [id]="head.id"
+          [department]="head.department"
+          [email]="head.email"
+          [faculty]="head.faculty"
+          [logo]="head.logo"
+          [name]="head.name"
+        />
+      </div>
+      }
+    </ng-container>
+  </main>
+</section>
