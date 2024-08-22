@@ -21,7 +21,7 @@ export class HomepageComponent {
     {
       title: 'Head of  Departments',
       iconSrc: '../assets/icons/department.svg',
-      link: '',
+      link: 'heads-of-departments',
     },
     {
       title: 'Academic Programmes',
