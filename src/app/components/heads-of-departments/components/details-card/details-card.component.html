@@ -1,9 +1,13 @@
-<div class="flex items-center justify-center gap-[3%]">
+<div
+  class="flex items-center justify-center gap-[3%] border shadow border-gray-200 md:border-none md:shadow-none md:flex-row flex-col"
+>
   <img [src]="logo()" [alt]="name()" class="w-[200px]" />
 
-  <div class="p-6 bg-white border border-gray-200 rounded-lg shadow w-[600px]">
+  <div
+    class="p-6 bg-white md:border md:border-gray-200 rounded-lg md:shadow md:w-[600px]"
+  >
     <ul
-      class="text-[#190C6A] font-bold text-base list-disc ml-5 space-y-2 mb-3"
+      class="text-[#190C6A] font-bold md:text-base text-sm list-disc ml-5 space-y-2 mb-3"
     >
       <li>Name: {{ name() }}</li>
       <li>Faculty: {{ faculty() }}</li>
@@ -12,7 +16,7 @@
     </ul>
     <a
       [routerLink]="['../department-details/' + id()]"
-      [queryParams]="{department: department()}"
+      [queryParams]="{ department: department() }"
       class="inline-flex items-center px-3 py-2 w-full justify-center text-sm font-medium text-center text-white bg-[#190C6A] rounded-lg hover:bg-[#2d089d] focus:outline-none"
     >
       Read more
