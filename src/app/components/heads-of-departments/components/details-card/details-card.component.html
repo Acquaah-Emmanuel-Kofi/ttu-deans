@@ -1,20 +1,19 @@
 <div class="flex items-center justify-center gap-[3%]">
-  <img src="./assets/images/graphic-design.png" alt="" class="w-[200px]" />
+  <img [src]="logo()" [alt]="name()" class="w-[200px]" />
 
-  <div
-    class="p-6 bg-white border border-gray-200 rounded-lg shadow w-[600px]"
-  >
+  <div class="p-6 bg-white border border-gray-200 rounded-lg shadow w-[600px]">
     <ul
       class="text-[#190C6A] font-bold text-base list-disc ml-5 space-y-2 mb-3"
     >
-      <li>Name: Someone</li>
-      <li>Name: Someone</li>
-      <li>Name: Someone</li>
-      <li>Name: Someone</li>
+      <li>Name: {{ name() }}</li>
+      <li>Faculty: {{ faculty() }}</li>
+      <li>Department: {{ department() }}</li>
+      <li>Email: {{ email() }}</li>
     </ul>
     <a
-      href="#"
-      class="inline-flex items-center px-3 py-2 w-full justify-center text-sm font-medium text-center text-white bg-[#190C6A] rounded-lg hover:bg-[#2d089d]  focus:outline-none"
+      [routerLink]="['../department-details/' + id()]"
+      [queryParams]="{department: department()}"
+      class="inline-flex items-center px-3 py-2 w-full justify-center text-sm font-medium text-center text-white bg-[#190C6A] rounded-lg hover:bg-[#2d089d] focus:outline-none"
     >
       Read more
       <svg
