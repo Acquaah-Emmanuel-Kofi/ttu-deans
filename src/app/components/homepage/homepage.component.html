@@ -1,7 +1,7 @@
 <app-navbar />
 <main class="relative">
   <img src="./assets/images/ttu-bg.jpg" alt="Background" />
-  <a href="#" class="absolute md:bottom-[37%] left-[9%] -mt-[20%] md:mt-0">
+  <a href="#about" class="absolute md:bottom-[37%] left-[9%] -mt-[20%] md:mt-0">
     <button
       type="button"
       class="border-none bg-[#190C6A] rounded-md md:px-8 md:py-3 px-6 py-3 md:text-sm text-xs text-[#FFC700]"
@@ -14,11 +14,8 @@
     class="flex flex-col md:flex-row mt-1 md:mt-0 justify-center gap-5 md:px-[5%] md:absolute md:bottom-7 w-full"
   >
     @for(card of heroCards; track $index) {
-    <li class="w-full bg-[#190C6A] text-white p-5">
-      <a
-        [routerLink]="card.link"
-        class="flex justify-center gap-4 items-center"
-      >
+    <li [routerLink]="card.link" class="w-full bg-[#190C6A] text-white p-5 cursor-pointer">
+      <a class="flex justify-center gap-4 items-center">
         <h2 class="font-semibold">{{ card.title }}</h2>
         <img [src]="card.iconSrc" alt="{{ card.title }}" class="w-16 h-16" />
       </a>
@@ -27,4 +24,4 @@
   </ul>
 </main>
 
-<app-about />
+<app-about id="about" />
