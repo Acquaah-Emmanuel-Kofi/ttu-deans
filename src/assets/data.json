@@ -13,7 +13,7 @@
       "logo": "./assets/images/textiles.png",
       "name": "Dr. Moses Akrofi",
       "faculty": "Faculty of Applied Arts and Technology",
-      "department": "Textiles Design  Technology",
+      "department": "Textiles Design Technology",
       "email": "moses.akrofi@ttu.edu.gh"
     },
     {
@@ -335,47 +335,94 @@
       }
     ]
   },
-  "departments": [
+  "departmentDetails": [
     {
-      "id": 1,
-      "title": "Department of Arts and Design",
-      "description": "The Department of Arts and Design focuses on creative practices in visual arts, design, and technology.",
-      "subtitle": "Creative Innovation",
-      "objectives": ["Graphic Design", "Textiles Technology", "Ceramics", "Painting"]
-    },
-    {
-      "id": 2,
-      "title": "Department of Hotel, Catering & Institutional Management",
-      "description": "This department offers a comprehensive curriculum in hospitality, catering, and hotel management.",
-      "subtitle": "Hospitality Excellence",
+      "id": 6,
+      "title": "Department of Sculpture and Industrial Crafts",
+      "overview": "The Department of Graphic Design Technology was carved out of the former Fine Art Department in 2008. It is one of the six (6) Departments in the Faculty of Applied Arts and Technology. It provides skills and knowledge-based programmes which develop students for employment in technical and artistic industries and which also equips students with the competences to enable them to pursue their own entrepreneurial ambitions",
+      "mission": "To provide tertiary education in the field of graphic design through the application of arts, and, also, to promote teaching and research in the graphic world.",
+      "vision": "The vision of the Department is to churn out world-class manpower to provide excellent art education to support industries and to promote human resource development in Ghana and abroad",
+      "goals": "In its bid to contribute to Ghana’s ambition to build her human resource capacity, the Department provides and seeks to, through further research, improve its high standard competency-based technological and pedagogical approaches; andTo provide other related programmes through consultancy to enhance productivity in the graphic design industry.",
+      "goalSubtitle": "In line with its vision to create excellence in graphic arts, the following goals are being pursued:",
       "objectives": [
-        "Catering Management",
-        "Hotel Management",
-        "Institutional Catering"
-      ]
+        "Provide specialised skills to graduates to enable them to meet contemporary manpower needs at managerial, entrepreneurial and supervisory levels in the graphics industry;",
+        "Prepare students for employment in art industries in line with the current national poverty alleviation programme; as well as",
+        "Encourage skills in the development of local materials and resources in promoting small and medium scale industries."
+      ],
+      "objectiveSubtitle": "The Department seeks to:"
     },
     {
       "id": 3,
-      "title": "Department of Information and Communication Technology",
-      "description": "The ICT department provides training in various ICT fields including networking and software engineering.",
-      "subtitle": "Technology for Tomorrow",
+      "title": "Department of Ceramics Technology",
+      "overview": "OVERVIEWThe Department of Ceramic Technology has highly-skilled and experienced staff who engage students in rigorous programmes that simultaneously develop both their conceptual and technical abilities aimed at making them self-reliant and employable. One cardinal purpose of the Department is to hone students to make them self-employed so that they can subsequently train and employ others to reduce the rate of unemployment that the country is experiencing. The Department has three studios where students undertake their practical works. There is also an attached store for art works. MISSIONThe mission of the Department is to provide a tertiary level education through full-time courses leading to the award of Higher National Diploma Certificate in Ceramics, and, also, to encourage research in ceramics. VISIONThe vision of the Department is to achieve excellence in the production of human resources so as to promote growth in industrialisation and research in Ghana. GOALSThe overall goal of the Department is to turn out well trained career-oriented graduates who are well equipped with practical skills for self-employment and who can fit into management positions. OBJECTIVESThe key obejectives of the Department are to:1. produce candidates with practical skills and attitudes required to enhance Ghana’s industrialisation drive; and2. harness candidates’ creative thinking abilities in order to lead to better working standards in all their fields of endeavour;",
+      "mission": "The mission of the Department is to provide a tertiary level education through full-time courses leading to the award of Higher National Diploma Certificate in Ceramics, and, also, to encourage research in ceramics",
+      "vision": "The vision of the Department is to achieve excellence in the production of human resources so as to promote growth in industrialisation and research in Ghana.",
+      "goals": "The overall goal of the Department is to turn out well trained career-oriented graduates who are well equipped with practical skills for self-employment and who can fit into management positions.",
+      "goalSubtitle": "",
       "objectives": [
-        "Networking",
-        "Software Engineering",
-        "Web Development",
-        "Cybersecurity"
-      ]
+        "Produce candidates with practical skills and attitudes required to enhance Ghana’s industrialisation drive; and",
+        "Harness candidates’ creative thinking abilities in order to lead to better working standards in all their fields of endeavour"
+      ],
+      "objectiveSubtitle": "The key obejectives of the Department are to:"
+    },
+    {
+      "id": 1,
+      "title": "Department of Graphic Design Technology",
+      "overview": "The Department of Graphic Design Technology was carved out of the former Fine Art Department in 2008. It is one of the six (6) Departments in the Faculty of Applied Arts and Technology. It provides skills and knowledge-based programmes which develop students for employment in technical and artistic industries and which also equips students with the competences to enable them to pursue their own entrepreneurial ambitions.",
+      "mission": "To provide tertiary education in the field of graphic design through the application of arts, and, also, to promote teaching and research in the graphic world.",
+      "vision": "The vision of the Department is to churn out world-class manpower to provide excellent art education to support industries and to promote human resource development in Ghana and abroad.",
+      "goals": "In its bid to contribute to Ghana’s ambition to build her human resource capacity, the Department provides and seeks to, through further research, improve its high standard competency-based technological and pedagogical approaches; andTo provide other related programmes through consultancy to enhance productivity in the graphic design industry.",
+      "goalSubtitle": "In line with its vision to create excellence in graphic arts, the following goals are being pursued:",
+      "objectives": [
+        "Provide specialised skills to graduates to enable them to meet contemporary manpower needs at managerial, entrepreneurial and supervisory levels in the graphics industry;",
+        "Prepare students for employment in art industries in line with the current national poverty alleviation programme; as well as",
+        "Encourage skills in the development of local materials and resources in promoting small and medium scale industries."
+      ],
+      "objectiveSubtitle": "The Department seeks to:"
+    },
+    {
+      "id": 5,
+      "title": "Department of Industrial Painting and Design",
+      "overview": "The Department of Industrial Painting and Design as one of the departments that constitute the Faculty of Applied Arts and Technology. It was created from the Department of Fine Arts in the 2008/2009 academic year. The Department runs a three-year programme leading to the award of Higher National Diploma (H.N.D) in Commercial Arts (Painting Option), and one-year Painting and Decoration (P&D) Advanced and a Non-Tertiary programme. These programmes are aimed at equipping students with the basic knowledge and skills in Art, with specialisation in Painting.",
+      "mission": "The Department of Industrial Painting and Design offers the platform for the enhancement of artistic talents by training students to acquire creative and practical skills necessary for self-expression and employment.",
+      "vision": "To achieve excellence in producing painters and art graduates capable of pursuing independent studio practice and able to satisfy the aesthetic and functional needs of both national and international markets.",
+      "goals": [
+        "Explore new grounds of study through research and technology; and",
+        "Churn out well trained career-oriented graduates to contribute to national development."
+      ],
+      "goalSubtitle": "The Department of Industrial Painting and Design has set the following goals for development:",
+      "objectives": [
+        "The students get the right skills and knowledge in the field of painting; and",
+        "The students fit into society and demonstrate good moral life and professionalism in painting."
+      ],
+      "objectiveSubtitle": "The Department operates with the core objectives of ensuring that:"
+    },
+    {
+      "id": 2,
+      "title": "Department of Textile Design and Technology",
+      "overview": "The Department of Textile Design and Technology has been challenging, stimulating and developing great minds for more than a decade. Characterised by a tradition of innovation through rigorous research, the Department has broken new grounds, pushed forward the boundaries of knowledge and made a significant impact in textile design and production. The Department has a distinguished history of achievements and an ambitious agenda for the future.",
+      "mission": "To offer a platform for tertiary education in the area of textile design and production and to promote a hands-on approach for the development of creative and technical competence. The vision of the Department is to produce middle to high-level human resources to fit into the socio-economic sector of Ghana and to promote Ghana’s industrialisation agendum through research",
+      "vision": "To offer a platform for tertiary education in the area of textile design and production and to promote a hands-on approach for the development of creative and technical competence. The vision of the Department is to produce middle to high-level human resources to fit into the socio-economic sector of Ghana and to promote Ghana’s industrialisation agendum through research",
+      "goals": "It is the Department’s quest to promote a high sense of creativity in students through a variety of textile production activities in three main categories: Fabric Production (weaving, knitting etc.), Textile Finishing (Pre-treatment etc.) and Fabric Decoration (embroidery, printing and dyeing) by using appropriate tools, materials and methodologies. Again, the Department encourages the development and the use of local tools and materials to promote self-employment and small scale start-ups.",
+      "goalSubtitle": "",
+      "objectives": "",
+      "objectiveSubtitle": ""
     },
     {
       "id": 4,
-      "title": "Department of Mechanical Engineering",
-      "description": "The Mechanical Engineering department specializes in automotive, production, and refrigeration technologies.",
-      "subtitle": "Engineering Innovation",
+      "title": "Department of Fashion Design and Technology",
+      "overview": "The Department of Fashion Design and Technology is one of the six (6) academic divisions of the Faculty of Applied Arts and Technology, Takoradi Technical University. It was introduced during the upgrading of the then state owned Polytechnics and now Technical Universities in Ghana to provide tertiary education in the area of clothing and textile. Students in this field are trained to develop creative skills in producing appropriate outfits. This involves designing of clothing, production of patterns and construction of suitable garments for occasions. Each type of clothing is accessorised by appropriate items. Millinery and accessories/leather work (are) is introduced to equip students to design complete outfits. \n\n As a complement, students are taught hair styling, makeup, beauty therapy and spa work to enable them apply a holistic approach in handling their potential diverse clientele. Students are also taken through fashion illustration to improve their technical presentation and good working practices. For students to acquire requisite skills in marketing, they get trained in Fashion Merchandising which specifically deals with the promotion and sales of fashion products. They are also taken through basic legal principles to enable them register and protect businesses. At the end of the three-year period, there is the final exhibition of graduates’ collection and a grand fashion show to crown the skills acquired.",
+      "mission": "The Department’s mission is to train high-quality manpower for the fashion industry.",
+      "vision": "The vision of the Department is to be a leading and world class centre of excellence for applied industrial research into practical fashion design and production.",
+      "goals": "The principal goal of the programme is to facilitate well trained career-oriented manpower equipped with modern technologies, entrepreneurial and managerial skills for self employment in the fashion industrial sub-sector.",
+      "goalSubtitle": "",
       "objectives": [
-        "Automotive Engineering",
-        "Refrigeration and Air-Conditioning",
-        "Welding and Fabrication"
-      ]
+        "Develop broad technical education and training in related programmes of fashion design and technology;",
+        "Aid trainees to gain meaningful employment in garment, accessories, beauty, textiles, event management and decoration fields;",
+        "Develop adequate knowledge based skills and competences to enable graduates participate fully in the socio-economic development of the nation; as well as",
+        "Promote the use of local and exotic resources for the design and production of acceptable costumes for global patronage."
+      ],
+      "objectiveSubtitle": "The objectives of the programme include preparing students to:"
     }
   ]
 }
