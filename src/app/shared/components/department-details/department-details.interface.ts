@@ -1,6 +1,10 @@
-export interface ContentItem {
+export interface IDepartmentDetails {
   title: string;
-  description?: string;
-  subtitle?: string;
-  objectives?: string[];
+  overview: string;
+  mission: string;
+  vision: string;
+  goals: string | string[];
+  goalSubtitle?: string;
+  objectives: string | string[];
+  objectiveSubtitle?: string;
 }
