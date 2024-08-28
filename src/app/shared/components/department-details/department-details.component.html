@@ -1,19 +1,77 @@
-<section class="px-4 md:px-0 md:max-w-[80%] md:mx-auto">
-  @for (item of content(); track $index) {
-  <div class="mb-6">
-    <h1 class="text-[#190C6A] font-bold text-2xl">{{ item.title }}</h1>
+<section>
+  <app-page-title [title]="detail().title" />
 
-    <P class="text-[#190C6A] font-normal text-base mb-2">
-      {{ item.description || item.subtitle }}
-    </P>
+  <main class="px-4 md:px-0 md:max-w-[80%] md:mx-auto">
+    <div class="mb-16">
+      <h1 class="text-[#190C6A] font-bold text-2xl">OVERVIEW</h1>
+      <p class="text-[#190C6A] text-base whitespace-pre-wrap">{{ detail().overview }}</p>
+    </div>
 
-    @if (item.list) {
-    <ul class="list-decimal text-[#190C6A] font-normal text-base space-y-4">
-      @for (subItem of item.list; track $index) {
-      <li>{{ subItem }}</li>
+    <div class="mb-16">
+      <h1 class="text-[#190C6A] font-bold text-2xl">MISSION</h1>
+      <p class="text-[#190C6A] text-base">{{ detail().mission }}</p>
+    </div>
+
+    <div class="mb-16">
+      <h1 class="text-[#190C6A] font-bold text-2xl">VISION</h1>
+      <p class="text-[#190C6A] text-base">{{ detail().vision }}</p>
+    </div>
+
+    @if (detail().title.includes("Fashion Design and Technology")) {
+    <div class="mb-16">
+      <h1 class="text-[#190C6A] font-bold text-2xl">THEE MAIN PURPOSE</h1>
+      <p class="text-[#190C6A] text-base">
+        The main purpose of the Department is to train learners to become
+        endowed with the requisite knowledge, skills and competences for making
+        innovative clothes, accessories and dress forms; the Department
+        additionally aims to train candidates to enable them to decorate homes
+        and event centres.
+      </p>
+    </div>
+    } @else {
+    <div class="mb-16">
+      <h1 class="text-[#190C6A] font-bold text-2xl">GOALS</h1>
+      <span class="text-[#190C6A] text-base">{{
+        detail().goalSubtitle ?? ""
+      }}</span>
+
+      @if (goalIsArry()) {
+      <ul class="text-[#190C6A] text-base list-decimal">
+        @for (goal of detail().goals; track $index) {
+        <li>{{ goal }}</li>
+        }
+      </ul>
+
+      } @else {
+      <p class="text-[#190C6A] text-base">{{ detail().goals }}</p>
+
       }
-    </ul>
+    </div>
+    } @if (detail().objectives) {
+    <div class="mb-16">
+      <h1 class="text-[#190C6A] font-bold text-2xl">
+        @if (detail().title.includes("Fashion Design and Technology")) { GOALS
+        AND OBJECTIVES } @else { OBJECTIVES }
+      </h1>
+      @if (detail().title.includes("Fashion Design and Technology")) {
+      <p class="text-[#190C6A] text-base">{{ detail().goals }}</p>
+      }
+      <span class="text-[#190C6A] text-base">{{
+        detail().objectiveSubtitle ?? ""
+      }}</span>
+
+      @if (objectivesIsArray()) {
+      <ul class="text-[#190C6A] text-base list-decimal">
+        @for (objective of detail().objectives; track $index) {
+        <li>{{ objective }}</li>
+        }
+      </ul>
+
+      } @else {
+      <p class="text-[#190C6A] text-base">{{ detail().objectives }}</p>
+
+      }
+    </div>
     }
-  </div>
-  }
+  </main>
 </section>
