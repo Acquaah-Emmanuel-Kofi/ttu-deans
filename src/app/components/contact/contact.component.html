@@ -1,1 +1,69 @@
-<p>contact works!</p>
+<section class="py-10">
+  <form
+    [formGroup]="form"
+    (ngSubmit)="handleSubmit()"
+    class="flex flex-col w-[90%] gap-10 mx-auto"
+  >
+    <div class="flex">
+      <div class="flex flex-col space-y-20">
+        <app-contact-content-card
+          [label]="'Takoradi Technical University, \nFAAT Building'"
+          iconSrc="./assets/icons/location.svg"
+          classes="py-8"
+        />
+        <div class="flex flex-col space-y-10">
+          <app-contact-content-card
+            label="faat@ttu.edu.gh"
+            iconSrc="./assets/icons/mail.svg"
+            ref="mailto:faat@ttu.edu.gh"
+          />
+          <app-contact-content-card
+            [label]="'+233 55 779 6909'"
+            iconSrc="./assets/icons/phone.svg"
+            ref="tel:+233557796909"
+          />
+        </div>
+      </div>
+      <div class="flex flex-col space-y-20 ml-3">
+        <div class="flex flex-wrap gap-6">
+          <app-input-field
+            [control]="form.get('name')"
+            label="name"
+            type="text"
+            id="name-input"
+            [required]="true"
+          ></app-input-field>
+          <app-input-field
+            [control]="form.get('email')"
+            label="email"
+            type="email"
+            id="email-input"
+            [required]="true"
+          ></app-input-field>
+          <app-input-field
+            [control]="form.get('subject')"
+            label="subject"
+            type="text"
+            id="subject-input"
+            [required]="true"
+          ></app-input-field>
+        </div>
+        <div>
+          <app-input-field
+            [control]="form.get('message')"
+            label="message"
+            id="message-textarea"
+            type="textarea"
+            [required]="true"
+          ></app-input-field>
+          <button
+            type="submit"
+            class="bg-[#190C6A] text-[#FFC700] px-8 py-2 rounded mt-5"
+          >
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</section>
