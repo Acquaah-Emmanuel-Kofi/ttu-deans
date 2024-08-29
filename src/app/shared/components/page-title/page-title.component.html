@@ -1,15 +1,17 @@
 <div
   id="rectangle"
-  class="flex justify-end items-center w-[310px] h-[100px] md:w-[350px] md:h-[150px]"
+  class="flex justify-end items-center w-[200px] relative mb-[3%] h-[100px] md:w-[350px] md:h-[150px]"
 >
   <div
     id="triangle-down"
-    class="border-b-[100px] md:border-b-[150px] border-b-transparent"
+    class="border-b-[100px] md:border-b-[150px] border-b-transparent absolute -right-[80px] top-0"
   ></div>
   <div id="triangle-left"></div>
-  <div class="w-full ml-[10%] md:-mr-[5%] z-10">
-    <h1 class="text-white text-2xl" >
-      <span class="font-bold shadow-[#190C6A]">{{ title() }}</span>
+  <div class="w-full md:ml-[10%] ml-[5%] md:-mr-[5%] z-10">
+    <h1 class="text-white md:text-2xl text-sm">
+      <span class="font-bold [text-shadow:_0_4px_4px_rgb(25,12,106)]">{{
+        title()
+      }}</span>
     </h1>
   </div>
 </div>
