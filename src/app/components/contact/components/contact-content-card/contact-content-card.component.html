@@ -1,0 +1,14 @@
+<a [href]="ref()">
+  <div
+    class="flex shadow-md shadow-[#CCC] bg-[#190C6A] w-full md:py-9 py-5 items-center justify-center"
+  >
+    <div class="flex items-center w-[80%] gap-4">
+      <img [src]="iconSrc()" [alt]="label()" class="md:w-[30px] w-[20px]" />
+      <h1
+        class="text-[#FFC700] font-bold md:text-lg text-sm text-center whitespace-pre-wrap"
+      >
+        {{ label() }}
+      </h1>
+    </div>
+  </div>
+</a>
