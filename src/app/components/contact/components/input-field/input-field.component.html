@@ -1,0 +1,48 @@
+@if (type() === "textarea") {
+<div class="relative">
+  <textarea
+    [id]="id()"
+    [formControl]="control()"
+    [placeholder]="placeholder()"
+    [required]="required()"
+    [disabled]="disabled()"
+    class="background w-full h-[245px] peer p-4 block caret-white text-white border-none outline-none bg-transparent border-t-transparent border-b-2 border-x-transparent border-b-gray-200 text-sm placeholder:text-transparent focus:border-t-transparent focus:border-x-transparent focus:border-b-blue-500 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none dark:border-b-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600 dark:focus:border-b-neutral-600 focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
+  ></textarea>
+  <label
+    [for]="id()"
+    class="absolute top-0 start-0 text-white p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 dark:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500"
+    >{{ label() }}{{ required() ? "*" : "" }}</label
+  >
+</div>
+@if (controlIsRequired) {
+<span class="text-red-500 text-xs absolute">This field is required.</span>
+
+} } @else {
+<div class="relative shadow-md shadow-[#CCC]">
+  <input
+    [type]="type()"
+    [id]="id()"
+    [formControl]="control()"
+    [placeholder]="placeholder()"
+    [disabled]="disabled()"
+    [required]="required()"
+    class="background peer p-4 block w-[325px] caret-white text-white border-none outline-none bg-transparent border-t-transparent border-b-2 border-x-transparent border-b-gray-200 text-sm placeholder:text-transparent focus:border-t-transparent focus:border-x-transparent focus:border-b-blue-500 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none dark:border-b-neutral-700 dark:text-neutral-400 dark:focus:ring-neutral-600 dark:focus:border-b-neutral-600 focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
+  />
+  <label
+    [for]="label()"
+    class="absolute top-0 start-0 text-white p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] dark:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 dark:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 dark:peer-[:not(:placeholder-shown)]:text-neutral-500 dark:text-neutral-500"
+    >{{ label() }}{{ required() ? "*" : "" }}</label
+  >
+</div>
+@if (controlIsRequired) {
+<span class="text-red-500 text-xs absolute">This field is required.</span>
+
+} @if (controlHasMinLengthError) {
+<span class="text-red-500 text-xs absolute"
+  >This field cannot be less than 2 characters long.</span
+>
+
+} @if (controlHasEmailError) {
+<span class="text-red-500 text-xs absolute">Invalid email.</span>
+
+}}
