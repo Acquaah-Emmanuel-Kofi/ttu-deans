@@ -1,7 +1,12 @@
 import { Component } from '@angular/core';
 import { InputFieldComponent } from './components/input-field/input-field.component';
 import { ContactContentCardComponent } from './components/contact-content-card/contact-content-card.component';
-import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import {
+  FormControl,
+  FormGroup,
+  ReactiveFormsModule,
+  Validators,
+} from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -23,7 +28,15 @@ export class ContactComponent {
   });
 
   handleSubmit() {
-    console.log(this.form.value);
-    
+    if (this.formIsValid()) {
+      alert('Message was sent successfully!');
+      console.log(this.form.value);
+    } else {
+      alert('Form is not valid!');
+    }
+  }
+
+  formIsValid() {
+    return this.form.valid;
   }
 }
