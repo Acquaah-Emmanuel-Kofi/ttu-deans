@@ -7,6 +7,7 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
+import { PageTitleComponent } from '../../shared/components/page-title/page-title.component';
 
 @Component({
   selector: 'app-contact',
@@ -15,6 +16,7 @@ import {
     InputFieldComponent,
     ContactContentCardComponent,
     ReactiveFormsModule,
+    PageTitleComponent
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',

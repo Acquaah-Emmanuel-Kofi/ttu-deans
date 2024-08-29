@@ -1,71 +1,75 @@
-<section class="py-10">
-  <form
-    [formGroup]="form"
-    (ngSubmit)="handleSubmit()"
-    class="flex flex-col w-[90%] gap-10 mx-auto"
-  >
-    <div class="flex md:flex-row flex-col md:gap-10">
-      <div class="flex flex-col md:space-y-20  mb-10 md:mb-0 md:w-[50%] w-full">
-        <app-contact-content-card
-          [label]="'Takoradi Technical University, \nFAAT Building'"
-          iconSrc="./assets/icons/location.svg"
-          class="mb-4 md:mb-0"
-        />
-        <div class="flex flex-col md:space-y-10">
+<section>
+  <div class="relative">
+    <img src="./assets/images/contact-bg.png" alt="Background" class="h-[30vh] md:h-full" />
+    <app-page-title title="Contacts" class="absolute bottom-10 left-0" />
+  </div>
+  <main class="flex flex-col w-[90%] gap-10 mx-auto mb-[10%] md:mt-[15%] mt-[20%]">
+    <form [formGroup]="form" (ngSubmit)="handleSubmit()">
+      <div class="flex md:flex-row flex-col md:gap-10">
+        <div
+          class="flex flex-col md:space-y-20 mb-10 md:mb-0 md:w-[50%] w-full"
+        >
           <app-contact-content-card
-            label="faat@ttu.edu.gh"
-            iconSrc="./assets/icons/mail.svg"
-            ref="mailto:faat@ttu.edu.gh"
+            [label]="'Takoradi Technical University, \nFAAT Building'"
+            iconSrc="./assets/icons/location.svg"
             class="mb-4 md:mb-0"
           />
-          <app-contact-content-card
-            [label]="'+233 55 779 6909'"
-            iconSrc="./assets/icons/phone.svg"
-            ref="tel:+233557796909"
-            class="mb-4 md:mb-0"
-          />
+          <div class="flex flex-col md:space-y-10">
+            <app-contact-content-card
+              label="faat@ttu.edu.gh"
+              iconSrc="./assets/icons/mail.svg"
+              ref="mailto:faat@ttu.edu.gh"
+              class="mb-4 md:mb-0"
+            />
+            <app-contact-content-card
+              [label]="'+233 55 779 6909'"
+              iconSrc="./assets/icons/phone.svg"
+              ref="tel:+233557796909"
+              class="mb-4 md:mb-0"
+            />
+          </div>
+        </div>
+        <div class="flex flex-col space-y-8 md:space-y-20 md:w-[50%] w-full">
+          <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
+            <app-input-field
+              [control]="form.get('name')"
+              label="name"
+              type="text"
+              id="name-input"
+              [required]="true"
+            ></app-input-field>
+            <app-input-field
+              [control]="form.get('email')"
+              label="email"
+              type="email"
+              id="email-input"
+              [required]="true"
+            ></app-input-field>
+            <app-input-field
+              [control]="form.get('subject')"
+              label="subject"
+              type="text"
+              id="subject-input"
+              [required]="true"
+            ></app-input-field>
+          </div>
+          <div>
+            <app-input-field
+              [control]="form.get('message')"
+              label="message"
+              id="message-textarea"
+              type="textarea"
+              [required]="true"
+            ></app-input-field>
+            <button
+              type="submit"
+              class="bg-[#190C6A] text-[#FFC700] px-8 py-2 rounded mt-5"
+            >
+              Send Message
+            </button>
+          </div>
         </div>
       </div>
-      <div class="flex flex-col space-y-8 md:space-y-20 md:w-[50%] w-full">
-        <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
-          <app-input-field
-            [control]="form.get('name')"
-            label="name"
-            type="text"
-            id="name-input"
-            [required]="true"
-          ></app-input-field>
-          <app-input-field
-            [control]="form.get('email')"
-            label="email"
-            type="email"
-            id="email-input"
-            [required]="true"
-          ></app-input-field>
-          <app-input-field
-            [control]="form.get('subject')"
-            label="subject"
-            type="text"
-            id="subject-input"
-            [required]="true"
-          ></app-input-field>
-        </div>
-        <div>
-          <app-input-field
-            [control]="form.get('message')"
-            label="message"
-            id="message-textarea"
-            type="textarea"
-            [required]="true"
-          ></app-input-field>
-          <button
-            type="submit"
-            class="bg-[#190C6A] text-[#FFC700] px-8 py-2 rounded mt-5"
-          >
-            Send Message
-          </button>
-        </div>
-      </div>
-    </div>
-  </form>
+    </form>
+  </main>
 </section>
