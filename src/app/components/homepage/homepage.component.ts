@@ -16,7 +16,7 @@ export class HomepageComponent {
     {
       title: 'Faculty Deans',
       iconSrc: '../assets/icons/faculty.svg',
-      link: '',
+      link: 'faculty-deans',
     },
     {
       title: 'Head of  Departments',
