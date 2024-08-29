@@ -4,28 +4,30 @@
     (ngSubmit)="handleSubmit()"
     class="flex flex-col w-[90%] gap-10 mx-auto"
   >
-    <div class="flex">
-      <div class="flex flex-col space-y-20">
+    <div class="flex md:flex-row flex-col md:gap-10">
+      <div class="flex flex-col md:space-y-20  mb-10 md:mb-0 md:w-[50%] w-full">
         <app-contact-content-card
           [label]="'Takoradi Technical University, \nFAAT Building'"
           iconSrc="./assets/icons/location.svg"
-          classes="py-8"
+          class="mb-4 md:mb-0"
         />
-        <div class="flex flex-col space-y-10">
+        <div class="flex flex-col md:space-y-10">
           <app-contact-content-card
             label="faat@ttu.edu.gh"
             iconSrc="./assets/icons/mail.svg"
             ref="mailto:faat@ttu.edu.gh"
+            class="mb-4 md:mb-0"
           />
           <app-contact-content-card
             [label]="'+233 55 779 6909'"
             iconSrc="./assets/icons/phone.svg"
             ref="tel:+233557796909"
+            class="mb-4 md:mb-0"
           />
         </div>
       </div>
-      <div class="flex flex-col space-y-20 ml-3">
-        <div class="flex flex-wrap gap-6">
+      <div class="flex flex-col space-y-8 md:space-y-20 md:w-[50%] w-full">
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
           <app-input-field
             [control]="form.get('name')"
             label="name"

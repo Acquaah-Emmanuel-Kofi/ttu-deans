@@ -1,9 +1,11 @@
 <a [href]="ref()">
-  <div class="flex bg-[#190C6A] w-[450px] py-9 items-center justify-center">
+  <div
+    class="flex shadow-md shadow-[#CCC] bg-[#190C6A] w-full md:py-9 py-5 items-center justify-center"
+  >
     <div class="flex items-center w-[80%] gap-4">
-      <img [src]="iconSrc()" [alt]="label()" class="w-[30px]" />
+      <img [src]="iconSrc()" [alt]="label()" class="md:w-[30px] w-[20px]" />
       <h1
-        class="text-[#FFC700] font-bold text-lg text-center whitespace-pre-wrap"
+        class="text-[#FFC700] font-bold md:text-lg text-sm text-center whitespace-pre-wrap"
       >
         {{ label() }}
       </h1>
