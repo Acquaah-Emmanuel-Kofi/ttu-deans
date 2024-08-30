@@ -77,13 +77,17 @@
     <div class="md:-mt-[3%] mt-[10%]">
       <h2 class="text-[#FFC700] mb-2">Quick Links</h2>
       <ul class="md:text-center">
-        @for(link of quickLinks; track $index) {
         <li class="hover:text-blue-500">
-          <a [href]="link.link" target="_blank" rel="nooreferrer">
-            {{ link.label }}
-          </a>
+          <a href="#home"> Home </a>
         </li>
-        }
+
+        <li class="hover:text-blue-500">
+          <a href="https://ttu.edu.gh/news/" target="_blank"> News </a>
+        </li>
+
+        <li class="hover:text-blue-500">
+          <a routerLink="/contact"> Contact </a>
+        </li>
       </ul>
     </div>
   </div>
