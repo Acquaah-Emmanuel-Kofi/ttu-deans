@@ -13,7 +13,7 @@ export class FooterComponent {
     public quickLinks: QuickLinks[] = [
       {
         label: 'Home',
-        link: ''
+        link: '/'
       },
       {
         label: 'News',
