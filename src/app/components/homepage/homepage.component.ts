@@ -19,7 +19,7 @@ export class HomepageComponent {
       link: 'faculty-deans',
     },
     {
-      title: 'Head of  Departments',
+      title: 'Heads of Department',
       iconSrc: '../assets/icons/department.svg',
       link: 'heads-of-departments',
     },
