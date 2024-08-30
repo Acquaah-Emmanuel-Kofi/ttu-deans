@@ -11,7 +11,7 @@ import { IHeadsOfDepartment } from './heads-of-departments.interface';
   styleUrl: './heads-of-departments.component.scss',
 })
 export class HeadsOfDepartmentsComponent implements OnInit {
-  title: string = 'Heads of Departments';
+  title: string = 'Heads of Department';
 
   headsOfDepartmentData = signal<IHeadsOfDepartment[]>([]);
 
