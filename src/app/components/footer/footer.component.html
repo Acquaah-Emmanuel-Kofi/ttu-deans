@@ -17,7 +17,7 @@
     <div class="md:-mt-[3%] mt-[10%]">
       <h2 class="text-[#FFC700] mb-2">Digital Address</h2>
       <ul class="">
-        <li class="hover:text-blue-500 flex items-center gap-2">
+        <li class="flex items-center gap-2">
           <svg
             width="23"
             height="23"
@@ -48,9 +48,21 @@
             </defs>
           </svg>
 
-          <a href="tel:+233257710695">(+233)257710695/0506024700</a>
+          <div class="flex items-center">
+            <label for="telephone">
+              <a href="tel:+233257710695" class="hover:text-blue-500"
+                >(+233)257710695</a
+              >
+            </label>
+            <span>/</span>
+            <label for="telephone">
+              <a href="tel:+233506024700" class="hover:text-blue-500"
+                >0506024700</a
+              >
+            </label>
+          </div>
         </li>
-        <li class="hover:text-blue-500 flex items-center gap-2">
+        <li class="flex items-center gap-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -67,9 +79,20 @@
             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
           </svg>
 
-          <a href="mailto:"
-            >info&#64;ttu.edu.gh academicaffairs&#64;ttu.edu.gh</a
-          >
+          <div class="flex items-center gap-3">
+            <label for="email">
+              <a href="mailto:info@ttu.edu.gh" class="hover:text-blue-500"
+                >info&#64;ttu.edu.gh</a
+              >
+            </label>
+            <label for="email">
+              <a
+                href="mailto:academicaffairs@ttu.edu.gh"
+                class="hover:text-blue-500"
+                >academicaffairs&#64;ttu.edu.gh</a
+              >
+            </label>
+          </div>
         </li>
       </ul>
     </div>
