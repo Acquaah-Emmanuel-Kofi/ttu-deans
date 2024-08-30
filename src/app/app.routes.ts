@@ -4,6 +4,7 @@ import { AcademicsPageComponent } from './components/academics-page/academics-pa
 import { HeadsOfDepartmentsComponent } from './components/heads-of-departments/heads-of-departments.component';
 import { DepartmentDetailsComponent } from './shared/components/department-details/department-details.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { FacultyDeansComponent } from './components/faculty-deans/faculty-deans.component';
 
 export const routes: Routes = [
   {
@@ -29,6 +30,10 @@ export const routes: Routes = [
   },
   {
     path: 'contact',
-    component: ContactComponent
-  }
+    component: ContactComponent,
+  },
+  {
+    path: 'faculty-deans',
+    component: FacultyDeansComponent,
+  },
 ];
